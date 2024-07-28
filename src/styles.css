@@ -13,19 +13,20 @@ grid-gap :64px;}
 
 .grid-3{grid-template-columns: 1fr 1fr 1fr;}
 
+
+
 section{max-width: 100%;
     margin: 0 auto;
 padding: 100px;}
 
 .text-center{text-align: center;}
 
-.img-responsive{max-width: 100%;}
+.img-responsive{width: 100%;
+display: block;}
 
-.card img{width: 185px;
-    height: 185px;
-    gap: 0px;
-    opacity: 0px;
-    }
+.embed{width: 100%;
+aspect-ratio: 1/1;}
+
 
 header{background-image:linear-gradient(rgba(39,32,68,0.8),rgba(39,32,68,0.6)),url('../images/cityscape-johannesburg.jpg');
 background-size: cover;
@@ -124,6 +125,9 @@ padding:200px 0;
                             margin: 30px 0;
                           }
 
+                          .card-header.grid{grid-template-columns: 1fr 1fr;
+                        grid-gap:0 ;}
+
                           .card-body {
                             padding: 30px;
                           }
@@ -195,4 +199,8 @@ padding:200px 0;
             grid-gap:32px ;}
 
             section{padding: 30px ;}
+
+            .card-header.img{display: none;}
+
+            .embed{aspect-ratio: 16/9;}
         }
