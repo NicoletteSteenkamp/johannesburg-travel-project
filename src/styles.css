@@ -27,6 +27,8 @@ display: block;}
 .embed{width: 100%;
 aspect-ratio: 1/1;}
 
+.instagram-embed{margin: 30px;}
+
 
 header{background-image:linear-gradient(rgba(39,32,68,0.8),rgba(39,32,68,0.6)),url('../images/cityscape-johannesburg.jpg');
 background-size: cover;
@@ -203,4 +205,6 @@ padding:200px 0;
             .card-header.img{display: none;}
 
             .embed{aspect-ratio: 16/9;}
+
+            
         }
