@@ -189,7 +189,7 @@ padding:200px 0;
                     }
 
 
-        @media (max-width:960px){
+        @media (max-width:900px){
             header{padding: 60px 0;}
 
             header h1{font-size: 48px;}
@@ -200,11 +200,19 @@ padding:200px 0;
             .grid{grid-template-columns: 1fr;
             grid-gap:32px ;}
 
-            section{padding: 30px ;}
-
-            .card-header.img{display: none;}
-
-            .embed{aspect-ratio: 16/9;}
-
-            
+            .grid{
+                grid-template-columns: 1fr;
+                grid-gap: 32px;
+            }
+        
+            section{
+                padding: 30px;
+            }
+            .embed {
+                aspect-ratio: 16/9;
+            }
+        
+            .card-header img {
+                display: none;
+            }
         }
